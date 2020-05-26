@@ -34,3 +34,4 @@ In addition to awaiting the user. Promises are meant to be kept.
 We just have the word 'User' because that is the template. But looking in the console will give us the data. We should be able to use the data in our component.
 
 
+![user console](/img/userConsole.png)]
