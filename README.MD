@@ -1,13 +1,34 @@
 # Easy Frontend JS Workflow With No Framework
 
-## Sass
+## Components: The User, Axios, and Fetching APIs
 
-The first time you import the style is the time you have to reload. No compling it to a css file, it does that behind the scenes.
+`npm i axios`
 
-## Components : Header
+You can install anything from NPM and we are in the front-end and without frameworks.
 
-In our compontents, our file names have an uppercase first letter. We pass our components in the HTML. Emmet sometimes works in template literals. You can use JSX or styles components. This is a simple component`.  
+axios is used to fetch APIs. 
 
-You can create a class or have pairing classes or life cycle methods, and other advances stuff. Import it into your app.js 
+async await will be used because axios returns a promise. 
 
-We have our header in the HTML from the app js. We needed to wrap the html in the index. 
+<a href="https://randomuser.me/api" target="_blank">
+Random User API
+</a>  
+It gives an array with a single user by default.
+
+res.data.results[0];
+The results array has a first value which is a user object.
+
+
+
+We alter the const app to make it an async.
+
+change `const User =  () => {`
+
+  to 
+  
+  `const User =  async () => { `
+
+In addition to awaiting the user. Promises are meant to be kept.
+
+
+We just have the word 'User' because that is the template. But looking in the console will give us the data. We should be able to use the data in our component.
