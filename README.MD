@@ -1,23 +1,8 @@
 # Easy Frontend JS Workflow With No Framework
 
-## Getting Started
+## Changes to .babelrc
 
-` npm init -y`
+The only options we need are corejs and regenerator. We change  
 
-The  `-y` answers the npm init questions
-
-
-` npm i -D parcel-bundler sass @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs2 ` 
-
-
-`-D ` : dev dependencies
-
-* parcel-bundler :  Bundling
-* sass : using scss sass files
-* babel : babel-core
-
-
-Go to <a href="https://babeljs.io/docs/en/babel-plugin-transform-runtime" target="_blank">plugin-transform-runtime</a>, and copy the "With options(and their defaults)" JSON code into the .babelrc file
-
-
-
+` "corejs": false, ` to 
+` "corejs": 2, ` because that we are using version 2.
