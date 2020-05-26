@@ -1,37 +1,14 @@
 # Easy Frontend JS Workflow With No Framework
 
-## Components: The User, Axios, and Fetching APIs
+## User File Template
 
-`npm i axios`
+This console gives us the information we need from the API.
 
-You can install anything from NPM and we are in the front-end and without frameworks.
+![user console](/img/userConsole.png)
 
-axios is used to fetch APIs. 
+In user js, we say      `  <div class="card">; `
+ , not `  <div className="card"> `. This is not React.
 
-async await will be used because axios returns a promise. 
+ This is not ideal because placing another `<div id="user"></div>`  would replace the first one. You can do `querySelectorAll` or you can have a users component and loop through them and put them in there. This is just an example.
 
-<a href="https://randomuser.me/api" target="_blank">
-Random User API
-</a>  
-It gives an array with a single user by default.
-
-res.data.results[0];
-The results array has a first value which is a user object.
-
-
-
-We alter the const app to make it an async.
-
-change `const User =  () => {`
-
-  to 
-  
-  `const User =  async () => { `
-
-In addition to awaiting the user. Promises are meant to be kept.
-
-
-We just have the word 'User' because that is the template. But looking in the console will give us the data. We should be able to use the data in our component.
-
-
-![user console](/img/userConsole.png)]
+ 
