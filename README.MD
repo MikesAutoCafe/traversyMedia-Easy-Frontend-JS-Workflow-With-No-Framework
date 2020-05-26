@@ -2,7 +2,7 @@
 
 ##  Overview
 
-This is my first documentation of a tutorial. Watch the <a htef="https://www.youtube.com/watch?v=8rD9amRSOQY" target="_blank">original video here</a>.
+This is my first documentation of a tutorial. Watch the <a href="https://www.youtube.com/watch?v=8rD9amRSOQY" target="_blank">original video here</a>.
 Look at the [commits](https://github.com/MikesAutoCafe/traversyMedia-Easy-Frontend-JS-Workflow-With-No-Framework/commits/master) for documentation.
 
 
