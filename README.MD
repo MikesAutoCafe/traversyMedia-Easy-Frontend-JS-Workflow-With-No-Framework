@@ -1,14 +1,27 @@
 # Easy Frontend JS Workflow With No Framework
 
-## User File Template
+##  Overview
 
-This console gives us the information we need from the API.
+This is my first documentation of a tutorial. Watch the <a htef="https://www.youtube.com/watch?v=8rD9amRSOQY" target="_blank">original video here</a>.
+Look at the [commits](https://github.com/MikesAutoCafe/traversyMedia-Easy-Frontend-JS-Workflow-With-No-Framework/commits/master) for documentation.
 
-![user console](/img/userConsole.png)
 
-In user js, we say      `  <div class="card">; `
- , not `  <div className="card"> `. This is not React.
+## Original Description
 
- This is not ideal because placing another `<div id="user"></div>`  would replace the first one. You can do `querySelectorAll` or you can have a users component and loop through them and put them in there. This is just an example.
+In this video, we will create a boilerplate for creating frontend applications with vanilla JS with Parcel bundler, babel and sass.
 
- 
+Code:
+https://github.com/bradtraversy/vanil...
+
+💖 Become a Patron: Show support & get perks!
+http://www.patreon.com/traversymedia
+
+Website & Udemy Course Links:
+https://www.traversymedia.com
+
+Follow Traversy Media:
+https://www.twitter.com/traversymedia
+https://www.instagram.com/traversymedia
+https://www.facebook.com/traversymedia
+Category
+Science & Technology
