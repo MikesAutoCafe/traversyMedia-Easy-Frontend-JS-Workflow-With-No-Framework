@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Header from './components/User';
+import User from './components/User';
 
 import './scss/app.scss';
 

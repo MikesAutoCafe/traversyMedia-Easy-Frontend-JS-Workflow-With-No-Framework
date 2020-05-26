@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const User =  async () => {
-    const res = await Axios.get('httpsl//randomuser.me/api');
+    const res = await axios.get('https://randomuser.me/api');
     const user = res.data.results[0];
 
     console.log(user)
